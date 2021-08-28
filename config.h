@@ -2,6 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	/* {"⌨", "sb-kbselect", 0, 30}, */
+	{"", "~/p/BorisWilhelms/dwmblocks/blocks/battery",	1,	10},
 	{"", "~/p/BorisWilhelms/dwmblocks/blocks/volume",	0,	10},
 	{"", "~/p/BorisWilhelms/dwmblocks/blocks/clock",	1,	NULL},
 };
