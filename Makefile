@@ -15,5 +15,7 @@ install: dwmblocks
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/dwmblocks
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks
-
+run:
+	killall -q dwmblocks
+	setsid dwmblocks&
 .PHONY: clean install uninstall
